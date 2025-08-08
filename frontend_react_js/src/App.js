@@ -352,7 +352,16 @@ function App() {
           {theme === 'light' ? '🌙 Dark' : '☀️ Light'}
         </button>
         <img src={logo} className="App-logo" style={{marginBottom: 0}} alt="logo" />
-        <h2 style={{margin:"-26px 0 0 0"}}>Trash Talk Tic Tac Toe Arena</h2>
+        <h2 style={{
+  margin: "-26px 0 0 0",
+  color: "rgba(132, 51, 129, 1)",
+  fontFamily: "-apple-system, system-ui, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+  fontStyle: "italic",
+  textDecoration: "underline",
+  fontWeight: "bold",
+  textAlign: "center",
+  fontSize: "2.53063rem"
+}}>Trash Talk Tic Tac Toe Arena</h2>
         <div style={{marginTop: 6, fontSize:15, color: "var(--text-secondary)", marginBottom:18}}>
           <span>Play against an AI with playful banter!</span>
         </div>
