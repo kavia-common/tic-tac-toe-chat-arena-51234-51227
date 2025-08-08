@@ -13,6 +13,19 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 In the project directory, you can run:
 
+---
+
+## OpenAI Trash Talk Integration
+This frontend supports AI-generated trash talk chat using the OpenAI API (gpt-3.5-turbo).
+- Messages from the AI will appear in green and are labeled "AI" in the chat panel.
+- **.env required:** Set `REACT_APP_OPENAI_API_KEY` in your `.env` to use this feature.
+
+### Customizing Trash Talk Style
+- You can enter a prompt in the "AI prompt style" field to personalize responses (e.g., "Be extra humorous and cocky", or use a movie character persona).
+- The OpenAI API logic is in `src/openaiTrashTalkService.js` — update the prompt or model as desired for further extensibility.
+
+--- 
+
 ### `npm start`
 
 Runs the app in development mode.\
