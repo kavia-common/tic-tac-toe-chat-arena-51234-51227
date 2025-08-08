@@ -101,4 +101,18 @@
     padding: 8px 16px;
     font-size: 12px;
   }
+  /* Responsive stacked layout for App */
+  .App-header {
+    flex-direction: column !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 984px) {
+  /* Responsive for game+chat stack side by side or below */
+  .App-header > div[style*="flex-direction: row"] {
+    flex-direction: column !important;
+    gap: 16px !important;
+    align-items: stretch !important;
+  }
 }
